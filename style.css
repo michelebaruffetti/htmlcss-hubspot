@@ -3,3 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container  {
+    width: 1080px;
+}
+
+.header-top {
+    height: 80px;
+    background-color: #F5F8FA;
+}
+
+.header-bottom  {
+    height: 80px;
+    background-color: white;
+}
+
+#jumbo  {
+    background-image: url("img/jumbobackground.jpg");
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
