@@ -112,3 +112,9 @@
     background-size: cover;
     background-position: center;
 }
+
+.box-jumbo  {
+    width: 35%;
+    padding-top: 50px;
+
+}
