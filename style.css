@@ -136,6 +136,6 @@
     padding: 40px;
 }
 
-.jumbo-box p :first-child {
+.jumbo-box :first-child {
     color:violet;
 }
