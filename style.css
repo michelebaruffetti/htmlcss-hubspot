@@ -118,3 +118,24 @@
     padding-top: 50px;
 
 }
+
+.box-jumbo h1   {
+    color: #33475b;
+    font-size: 50px;
+    margin: 20px 0;
+}
+
+.box-jumbo :last-child  {
+    font-size: 15px;
+    color: #33475b;
+    padding-right: 150px;
+    margin-top: 50px;
+}
+
+.jumbo-box a {
+    padding: 40px;
+}
+
+.jumbo-box p :first-child {
+    color:violet;
+}
