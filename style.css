@@ -17,6 +17,8 @@
     font-family: 'Lato', sans-serif;
 }
 
+
+}
 /* HEADER TOP */
 .header-top {
     width: 100%;
@@ -89,14 +91,17 @@
 
 .bottom-right   {
     float: right;
+
 }
 
-#main-menu ul {
+#main-menu li {
     display: inline-block;
+    padding: 30px 20px;
 }
 
 #main-menu li a  {
     text-decoration: none;
+
 }
 
 /* JUMBOTRON */
