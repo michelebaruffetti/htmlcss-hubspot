@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.clearfix   {
+.clearfix::after   {
     content: '';
     display: table;
     clear: both;
@@ -137,15 +137,14 @@
     padding: 40px;
 }
 
-.jumbo-box p {
-    color: #33475b;
-}
 
-#marketing  {
+
+.box-jumbo :nth-child(2){
     color: #33475b;
     font-size: 18px;
     margin-bottom: 20px;
 }
+
 
 #jumbo-button   {
 
@@ -179,6 +178,7 @@
     background-color: white;
     border-radius: 5px;
     padding: 40px 25px;
+    position: relative;
 }
 
 .text-box p   {
@@ -228,4 +228,14 @@
     background-color: #FF7A59;
     color: white;
     float: right;
+}
+
+.panel1 p:nth-child(3)::after  {
+    width: calc(100% - 175px);
+    content: '';
+    position: absolute;
+    height: 12px;
+    margin-left: 10px;
+    border-bottom: 1px solid rgba(153,172,194,0.2);
+
 }
