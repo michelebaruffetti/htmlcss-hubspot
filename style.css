@@ -166,13 +166,14 @@
 }
 
 .text-box    {
-    width: 30%;
+    width: 34%;
     float: left;
     margin-top: 60px;
+    padding-right: 37px;
 }
 
 .panel1 {
-    width: 70%;
+    width: 66%;
     float: left;
     margin-top: 60px;
     background-color: white;
@@ -184,8 +185,9 @@
 .text-box p   {
     color: #33475b;
     font-size: 18px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     padding-right: 10px;
+    line-height: 29px;
 }
 
 .text-box h2    {
@@ -217,6 +219,8 @@
     display: inline-block;
     float: left;
     margin-right: 20px;
+    font-size: 15px;
+    font-weight: 500px;
 }
 
 .get-started  {
@@ -230,12 +234,37 @@
     float: right;
 }
 
+.panel1 p:nth-child(2)  {
+    line-height: 22px;
+    font-size: 14px;
+    margin-bottom: 14px;
+    color: #33475b;
+}
+
+.panel1 p:nth-child(3)  {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    color: #33475B;
+}
 .panel1 p:nth-child(3)::after  {
     width: calc(100% - 175px);
     content: '';
     position: absolute;
-    height: 12px;
+    height: 9px;
     margin-left: 10px;
     border-bottom: 1px solid rgba(153,172,194,0.2);
 
+}
+
+.bottom-box li::before {
+content: "\f058";
+font-family: "Font Awesome 5 Pro";
+font-weight: bold;
+color:#FF7A59;
+margin-right: 12px;
+}
+
+.bottom-box {
+    margin-top: 30px;
 }
