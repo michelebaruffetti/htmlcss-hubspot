@@ -162,7 +162,8 @@
 
 #powerful   {
     background-color: #F5F8FA;
-    /* height: 800px; */
+    padding-top: 20px;
+    padding-bottom: 60px;
 }
 
 .text-box    {
@@ -179,7 +180,6 @@
     background-color: white;
     border-radius: 5px;
     padding: 40px 25px;
-    /* position: relative; */
 }
 
 .text-box p   {
@@ -335,4 +335,12 @@ margin-right: 12px;
     width: 100%;
     margin-top: 15px;
     text-align: center;
+}
+
+/* INIZIO SEZIONE BLUE-GRID */
+
+#blue-grid  {
+    background-image: linear-gradient(to top right, #00A4BD, #00BDA5);
+    height: 800px;
+    /* altezza da rimuovere */
 }
