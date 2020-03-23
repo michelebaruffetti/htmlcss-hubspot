@@ -341,17 +341,17 @@ margin-right: 12px;
 
 #blue-grid  {
     background-image: linear-gradient(to top right, #00A4BD, #00BDA5);
-    height: 1000px;
-    /* altezza da rimuovere */
+
 }
 
 .blue-header    {
     width: 65%;
     margin: auto;
     text-align: center;
-    padding-top: 60px;
+    padding-top: 100px;
     line-height: 40px;
     color: white;
+    margin-bottom: 80px;
 }
 
 .blue-header  h3  {
@@ -390,4 +390,13 @@ margin-right: 12px;
     font-weight: 500;
     font-size: 18;
     margin-bottom: 5px;
+}
+
+.secondline {
+    border-bottom: 0px;
+    margin-bottom: 80px;
+}
+
+.lastgrid {
+    border-right: 0px;
 }
