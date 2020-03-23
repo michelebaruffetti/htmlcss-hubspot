@@ -341,7 +341,7 @@ margin-right: 12px;
 
 #blue-grid  {
     background-image: linear-gradient(to top right, #00A4BD, #00BDA5);
-    height: 800px;
+    height: 1000px;
     /* altezza da rimuovere */
 }
 
@@ -364,4 +364,30 @@ margin-right: 12px;
     font-size: 18px;
     line-height: 29px;
     font-weight: 400;
+}
+
+.grid   {
+    color: white;
+    text-align: center;
+    width: 25%;
+    float: left;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    padding: 30px;
+}
+
+.icon-wrapper   {
+        margin-bottom: 10px;
+}
+
+.grid h2    {
+    margin-bottom: 8px;
+    font-weight: bolder;
+    font-size: 45px;
+}
+
+.grid  p {
+    font-weight: 500;
+    font-size: 18;
+    margin-bottom: 5px;
 }
